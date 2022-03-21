@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/movieVezba/style.css" />
+    <title>YTS MX</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="search-term">
+        <h3>Search Term:</h3>
+        <input type="text" name="text" id="search" />
+        <button type="submit" class="submitBtn">Search</button>
+      </div>
+      <div class="container">
+        <div class="filter-container">
+          <p>Rating</p>
+          <select name="rating" id="movie-rating">
+            <option class="drop-down" value="9">9</option>
+            <option class="drop-down" value="8">8</option>
+            <option class="drop-down" value="7">7</option>
+            <option class="drop-down" value="6">6</option>
+            <option class="drop-down" value="5">5</option>
+            <option class="drop-down" value="4">4</option>
+            <option class="drop-down" value="3">3</option>
+            <option class="drop-down" value="2">2</option>
+            <option value="1">1</option>
+          </select>
+        </div>
+
+        <div class="filter-container">
+          <p>Year</p>
+          <select name="year" id="movie-year">
+            <option class="drop-down" value="0">All</option>
+            <option class="drop-down" value="2022">2022</option>
+            <option class="drop-down" value="2021">2021</option>
+            <option class="drop-down" value="2020">2020</option>
+            <option class="drop-down" value="2019">2019</option>
+            <option class="drop-down" value="2018">2018</option>
+            <option class="drop-down" value="2017">2017</option>
+            <option class="drop-down" value="2016">2016</option>
+            <option class="drop-down" value="2015">2016</option>
+          </select>
+        </div>
+
+        <div class="filter-container">
+          <p>Order By</p>
+          <select name="orderBy" id="movie-order">
+            <option class="drop-down" value="latest">Latest</option>
+            <option class="drop-down" value="year">Year</option>
+            <option class="drop-down" value="rating">Rating</option>
+            <option class="drop-down" value="alphabettical">
+              Alphabettical
+            </option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <section class="movies">
+      <!-- <div class="card">
+        <img
+          src="https://img.yts.mx/assets/images/movies/pursuit_2022/medium-cover.jpg"
+          alt=""
+        />
+        <h3>Pursuit</h3>
+        <p>2022</p>
+      </div> -->
+    </section>
+    <script src="/movieVezba/script.js"></script>
+  </body>
+</html>
